@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+     font-family: Arial, sans-serif;
+     background-color: #87ceeb; /* Sky Blue color */
+     color: #333;
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+   }
+   
+   .container {
+     max-width: 800px;
+     margin: 0 auto;
+   }
+   
+   /* Navbar */
+   .navbar {
+     background-color: #f0ad4e;
+     padding: 10px 20px;
+     color: #fff;
+   }
+   
+   /* Main Section */
+   #section2 {
+     margin-top: 10vh;
+     padding: 1vh;
+   }
+   
+   .p {
+     display: flex;
+     align-items: center;
+   }
+   
+   .p svg.bi {
+     margin-right: 5px;
+   }
+   
+   /* Task Input */
+   #task-input {
+     border-radius: 10px;
+   }
+   
+   #add-btn {
+     border-radius: 5px;
+   }
+   
+   /* Task Cards */
+   .card {
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .important {
+     background-color: #fd826f !important;
+   }
+   
+   .card1 {
+     background-color: #ffeeb0 !important;
+   }
+   
+   .action-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   
+   .important-icon {
+     color: #fd826f;
+   }
+   
+   /* Date and Time Pickers */
+   #calendar-picker-container, #time-picker-container {
+     width: 200px;
+     margin: 10px 0;
+   }
+   
+   /* Buttons */
+   .btn-outline {
+     color: #f0ad4e;
+     border-color: #f0ad4e;
+   }
+   
+   .btn-outline:hover {
+     background-color: #f0ad4e;
+     color: #fff;
+   }
+   
+   /* Responsive */
+   @media (max-width: 768px) {
+     .card {
+       margin-bottom: 15px;
+     }
+   }
+   
